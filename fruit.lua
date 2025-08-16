@@ -1,4 +1,4 @@
-print("✅ Security verification passed. Loading RTaODev...")
+print("✅ Security verification passed. Loading vortX Hub...")
 if game.PlaceId == 2753915549 then
 	World1 = true;
 elseif game.PlaceId == 4442272183 then
@@ -15,6 +15,7 @@ if Update:LoadAnimation() then
 	Update:Loaded();
 end;
 local Library = Update:Window({
+    Title = "VortX Hub", 
 	SubTitle = "Blox Fruits",
 	Size = UDim2.new(0, 450, 0, 300),
 	TabWidth = 140
@@ -12010,4 +12011,5 @@ for _, v in pairs(resultNormal) do
 		ServTab:Label(tostring(NormalFruitInfo));
 	end;
 end;
+
 print("Script Loaded!");
